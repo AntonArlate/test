@@ -73,7 +73,7 @@ void Method2()
     int tempParseNum;
     bool checkDounleChar = true;
 
-    Console.WriteLine("Введите последовательность чисел разделёных любыми знаками (кроме пустых пробелов):");
+    Console.WriteLine("Введите последовательность чисел разделёных любыми знаками:");
     inputString = Console.ReadLine();
 
     for (int i = 0; i < inputString.Length; i++) // На выходе должны получить строку где все НЕ цифры заменены пробелами
